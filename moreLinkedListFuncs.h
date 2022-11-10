@@ -3,30 +3,27 @@
 
 #include "linkedList.h"
 
-
 void addIntToEndOfList(LinkedList *list, int value);
 
 void addIntToStartOfList(LinkedList *list, int value);
 
-
 // list: ptr to a linked list of Node (each with int data, and Node * next)
 // Return a pointer to node with the largest value.
-// You may assume list has at least one element  
-// If more than one element has largest value, 
+// You may assume list has at least one element
+// If more than one element has largest value,
 //  break tie by returning a pointer to the one the occurs
 //  earlier in the list, i.e. closer to the head
 
-Node * pointerToMax(LinkedList *list);
+Node *pointerToMax(LinkedList *list);
 
 // list: ptr to a linked list of Node (each with int data, and Node * next)
-// Return a pointer to node with the smallest value.  
+// Return a pointer to node with the smallest value.
 // You may assume list has at least one element
-// If more than one element has smallest value, 
+// If more than one element has smallest value,
 //  break tie by returning a pointer to the one the occurs
 //  earlier in the list, i.e. closer to the head
 
-
-Node * pointerToMin(LinkedList *list);
+Node *pointerToMin(LinkedList *list);
 
 // list: ptr to a linked list of Node (each with int data, and Node * next)
 // Return the largest value in the list.
@@ -48,6 +45,6 @@ int smallestValue(LinkedList *list);
 // However, the list may be empty (i.e. list->head may be NULL)
 //  in which case your code should return 0.
 
-int sum(LinkedList * list);
+int sum(LinkedList *list);
 
 #endif

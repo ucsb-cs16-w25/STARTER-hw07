@@ -1,12 +1,14 @@
 #ifndef NODE_H
 #define NODE_H
 
-struct Node {
+struct Node
+{
   int data;
   Node *next;
 };
 
-struct LinkedList {
+struct LinkedList
+{
   Node *head;
   Node *tail;
 };
