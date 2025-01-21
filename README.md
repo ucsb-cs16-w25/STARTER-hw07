@@ -1,3 +1,3 @@
-# STARTER-gsa07
+# STARTER-hw07
 
-See: <https://ucsb-cs16.github.io/w24/gsa07.html>
+TODO: add Iris link
